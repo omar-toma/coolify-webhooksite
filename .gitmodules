@@ -1,0 +1,3 @@
+[submodule "webhook.site"]
+	path = webhook.site
+	url = git@github.com:webhooksite/webhook.site.git
