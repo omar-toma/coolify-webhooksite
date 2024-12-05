@@ -11,6 +11,7 @@ services:
   redis:
     container_name: "webhook-redis"
     image: "redis:alpine"
+    command: redis-server --appendonly yes --save 60 1
     volumes:
       - webhook-redis:/data
 
